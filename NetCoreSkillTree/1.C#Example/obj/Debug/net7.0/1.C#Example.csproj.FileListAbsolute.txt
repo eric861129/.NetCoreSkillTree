@@ -1,0 +1,15 @@
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\bin\Debug\net7.0\1.C#Example.exe
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\bin\Debug\net7.0\1.C#Example.deps.json
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\bin\Debug\net7.0\1.C#Example.runtimeconfig.json
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\bin\Debug\net7.0\1.C#Example.dll
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\bin\Debug\net7.0\1.C#Example.pdb
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\obj\Debug\net7.0\1.C#Example.csproj.AssemblyReference.cache
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\obj\Debug\net7.0\1.C#Example.GeneratedMSBuildEditorConfig.editorconfig
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\obj\Debug\net7.0\1.C#Example.AssemblyInfoInputs.cache
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\obj\Debug\net7.0\1.C#Example.AssemblyInfo.cs
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\obj\Debug\net7.0\1.C#Example.csproj.CoreCompileInputs.cache
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\obj\Debug\net7.0\1.C#Example.dll
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\obj\Debug\net7.0\refint\1.C#Example.dll
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\obj\Debug\net7.0\1.C#Example.pdb
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\obj\Debug\net7.0\1.C#Example.genruntimeconfig.cache
+C:\.NetCoreSkillTree\NetCoreSkillTree\1.C#Example\obj\Debug\net7.0\ref\1.C#Example.dll
