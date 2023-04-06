@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _1.C_Example.Extension
+namespace Extension
 {
     /// <summary>
     /// Enum 的擴充方法
@@ -23,15 +23,12 @@ namespace _1.C_Example.Extension
             var fieldInfo = value.GetType().GetField(value.ToString());
 
             // 取 DisplayAttribute 標記
-            DisplayAttribute pDisplay = fieldInfo.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault() as DisplayAttribute;
-            // 取 DisplayName 標記
-            DisplayNameAttribute pDisplayName = fieldInfo.GetCustomAttributes(typeof(DisplayNameAttribute), false).FirstOrDefault() as DisplayNameAttribute;
-
-            if (pDisplay != null)
+            if (fieldInfo.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault() is DisplayAttribute pDisplay)
             {
                 return pDisplay.Name ?? value.ToString();
             }
-            else if (pDisplayName != null)
+            // 取 DisplayName 標記
+            else if (fieldInfo.GetCustomAttributes(typeof(DisplayNameAttribute), false).FirstOrDefault() is DisplayNameAttribute pDisplayName)
             {
                 return pDisplayName.DisplayName ?? value.ToString();
             }
@@ -50,9 +47,8 @@ namespace _1.C_Example.Extension
             var fieldInfo = value.GetType().GetField(value.ToString());
 
             // 取 DisplayAttribute 標記
-            DisplayAttribute pDisplay = fieldInfo.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault() as DisplayAttribute;
 
-            if (pDisplay != null)
+            if (fieldInfo.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault() is DisplayAttribute pDisplay)
             {
                 return pDisplay.Description ?? value.ToString();
             }
@@ -71,9 +67,8 @@ namespace _1.C_Example.Extension
             var fieldInfo = value.GetType().GetField(value.ToString());
 
             // 取 DisplayAttribute 標記
-            DisplayAttribute pDisplay = fieldInfo.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault() as DisplayAttribute;
 
-            if (pDisplay != null)
+            if (fieldInfo.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault() is DisplayAttribute pDisplay)
             {
                 return pDisplay.ShortName ?? value.ToString();
             }
@@ -92,9 +87,8 @@ namespace _1.C_Example.Extension
             var fieldInfo = value.GetType().GetField(value.ToString());
 
             // 取 DisplayAttribute 標記
-            DisplayAttribute pDisplay = fieldInfo.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault() as DisplayAttribute;
 
-            if (pDisplay != null)
+            if (fieldInfo.GetCustomAttributes(typeof(DisplayAttribute), false).FirstOrDefault() is DisplayAttribute pDisplay)
             {
                 return pDisplay.GroupName ?? value.ToString();
             }

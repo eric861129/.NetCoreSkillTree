@@ -5,23 +5,23 @@
         /// <summary>
         /// 回傳資訊名稱
         /// </summary>
-        public string Name { get; set; }
+        public string? Name { get; set; }
         /// <summary>
         /// 回傳訊息
         /// </summary>
-        public string ResultMessage { get; set; }
+        public string? ResultMessage { get; set; }
         /// <summary>
         /// 回傳物件類別
         /// </summary>
-        public Type ResultType { get; set; }
+        public Type? ResultType { get; set; }
         /// <summary>
         /// 回傳物件
         /// </summary>
-        public object ResultItem { get; set; }
+        public object? ResultItem { get; set; }
         /// <summary>
         /// 回傳成功?
         /// </summary>
-        public bool ResultIsSuccess { get; set; }
+        public bool? ResultIsSuccess { get; set; }
 
         /// <summary>
         /// 設定回傳物件
@@ -38,7 +38,7 @@
         /// </summary>
         /// <param name="Name"></param>
         /// <param name="ErrorMessage"></param>
-        public ResultDetailInfo SetSucessResult(string Name = null, string ErrorMessage = null)
+        public ResultDetailInfo SetSucessResult(string? Name = null, string? ErrorMessage = null)
         {
             SetMessage(Name, ErrorMessage);
             this.ResultIsSuccess = true;
@@ -50,7 +50,7 @@
         /// </summary>
         /// <param name="Name"></param>
         /// <param name="ErrorMessage"></param>
-        public ResultDetailInfo SetErrorResult(string Name = null, string ErrorMessage = null)
+        public ResultDetailInfo SetErrorResult(string? Name = null, string? ErrorMessage = null)
         {
             SetMessage(Name, ErrorMessage);
             this.ResultIsSuccess = false;
@@ -61,7 +61,7 @@
         /// </summary>
         /// <param name="Name"></param>
         /// <param name="ErrorMessage"></param>
-        private void SetMessage(string Name = null, string ErrorMessage = null)
+        private void SetMessage(string? Name = null, string? ErrorMessage = null)
         {
             this.Name = Name;
             this.ResultMessage = ErrorMessage;

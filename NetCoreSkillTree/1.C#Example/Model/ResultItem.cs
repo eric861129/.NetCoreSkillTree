@@ -15,15 +15,15 @@
         /// <summary>
         /// 是否成功
         /// </summary>
-        public bool IsSuccess { get; set; }
+        public bool? IsSuccess { get; set; }
         /// <summary>
         /// 訊息
         /// </summary>
-        public string MainMessage { get; set; }
+        public string? MainMessage { get; set; }
         /// <summary>
         /// 錯誤資訊集合
         /// </summary>
-        public List<ResultDetailInfo> ResultDetailInfos { get; set; }
+        public List<ResultDetailInfo>? ResultDetailInfos { get; set; }
         /// <summary>
         /// 設定成功訊息
         /// </summary>
