@@ -1,0 +1,118 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".Net Core Basics", ".Net Core Basics", "{0E933EBD-A68B-4B6C-B826-77C89F4A0C86}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\.Net Core Basics\.Net Core Basics.md = ..\..\.NetCore-Developer-Roadmap\.Net Core Basics\.Net Core Basics.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API Clients & Communications", "API Clients & Communications", "{DCD1C6B8-EE93-418F-A04E-42579DC30024}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\API Clients & Communications\API Clients & Communications.md = ..\..\.NetCore-Developer-Roadmap\API Clients & Communications\API Clients & Communications.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Injection", "Dependency Injection", "{240C9994-751C-4621-BCF6-44DA511211A9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Dependency Injection\Dependency Injection.md = ..\..\.NetCore-Developer-Roadmap\Dependency Injection\Dependency Injection.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Design Patterns", "Design Patterns", "{DCB4A5BE-1AFB-4F6E-901E-EC37B545E9FC}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Design Patterns\Design Patterns.md = ..\..\.NetCore-Developer-Roadmap\Design Patterns\Design Patterns.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entity", "Entity", "{75561B55-F525-4B25-8D0F-D83639283AD1}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Entity\Entity.md = ..\..\.NetCore-Developer-Roadmap\Entity\Entity.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Genaral Develop Skill", "Genaral Develop Skill", "{377D2E9C-6346-4639-B6A7-B6F306B60BF6}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Genaral Develop Skill\Genaral Develop Skill.md = ..\..\.NetCore-Developer-Roadmap\Genaral Develop Skill\Genaral Develop Skill.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Good to Know", "Good to Know", "{6F3F1C1D-8D66-4326-8818-3893359D658E}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Good to Know\Good to Know.md = ..\..\.NetCore-Developer-Roadmap\Good to Know\Good to Know.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Log Frameworks", "Log Frameworks", "{7AB57091-EBF3-43C6-BF3E-9BFFD91127B9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Log Frameworks\Log Frameworks.md = ..\..\.NetCore-Developer-Roadmap\Log Frameworks\Log Frameworks.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microservices", "Microservices", "{DF1A800B-FE02-4BCE-BA55-AC4AC9F31E3F}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Microservices\Microservices.md = ..\..\.NetCore-Developer-Roadmap\Microservices\Microservices.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Object Mapping", "Object Mapping", "{79041FCC-782A-4BB1-892B-06D80DAFFFD7}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Object Mapping\Object Mapping.md = ..\..\.NetCore-Developer-Roadmap\Object Mapping\Object Mapping.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Background Task Scheduler", "Background Task Scheduler", "{BEFB6DA8-1A27-486C-B555-0FE5D65B76C8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Background Task Scheduler\Background Task Scheduler.md = ..\..\.NetCore-Developer-Roadmap\Background Task Scheduler\Background Task Scheduler.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#", "C#", "{747357F8-FF9F-44F3-B7C2-581480EA8193}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\C#\C#.md = ..\..\.NetCore-Developer-Roadmap\C#\C#.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caching", "Caching", "{DE31BA06-C124-4FE3-9B75-97DF3FE29D97}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Caching\Caching.md = ..\..\.NetCore-Developer-Roadmap\Caching\Caching.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client-Side .NET", "Client-Side .NET", "{D8938AC9-FB82-4CB2-A914-6ED6E756B57A}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Client-Side .NET\Client-Side .NET.md = ..\..\.NetCore-Developer-Roadmap\Client-Side .NET\Client-Side .NET.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Continuous Integration & Continuous Delivery", "Continuous Integration & Continuous Delivery", "{E2B85690-DF19-4F34-ACC6-DFBAE37C6FE8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Continuous Integration & Continuous Delivery\Continuous Integration & Continuous Delivery.md = ..\..\.NetCore-Developer-Roadmap\Continuous Integration & Continuous Delivery\Continuous Integration & Continuous Delivery.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Databases", "Databases", "{30253046-48C8-4759-AC1A-D01A0EBCD2DF}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Databases\Databases.md = ..\..\.NetCore-Developer-Roadmap\Databases\Databases.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Other", "Other", "{F5396EE7-391C-4EDB-A90A-7DB2244A823B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Other\Other.md = ..\..\.NetCore-Developer-Roadmap\Other\Other.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Real-Time Communication", "Real-Time Communication", "{C66C66F0-653A-4524-BF51-B57D4CDC8B86}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Real-Time Communication\Real-Time Communication.md = ..\..\.NetCore-Developer-Roadmap\Real-Time Communication\Real-Time Communication.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Basic", "SQL Basic", "{922B564D-67DD-43D9-A612-995EC1F922ED}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\SQL Basic\SQL Basic.md = ..\..\.NetCore-Developer-Roadmap\SQL Basic\SQL Basic.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{621C8682-C96D-4461-A703-C5E894475BA8}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\Testing\Testing.md = ..\..\.NetCore-Developer-Roadmap\Testing\Testing.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SOLID", "SOLID", "{6F10D8A3-737A-4B85-86F7-1589C198CBB9}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.NetCore-Developer-Roadmap\SOLID\SOLID.md = ..\..\.NetCore-Developer-Roadmap\SOLID\SOLID.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4943C36A-47F6-45BD-BDC5-1657B84E5E8B}
+	EndGlobalSection
+EndGlobal
